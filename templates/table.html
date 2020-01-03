@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Converge 2020 Data</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+  {%for i in data.keys()%}
+  <div style="margin: 50px 50px">
+    <h2>{{i}} - Registrations</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          {%for j in data[i][0].keys()%}
+          <th scope="col">{{j}}</th>
+          {%endfor%}
+        </tr>
+      </thead>
+      <tbody>
+        {%for j in data[i]%}
+        <tr>
+          {%for k in j%}
+          <td>{{j[k]}}</td>
+          {%endfor%}
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+</div>
+{%endfor%}
+</body>
+</html>

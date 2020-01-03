@@ -4,7 +4,7 @@ import pymongo
 import config
 import check
 import pandas as pd
-
+import events
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
@@ -12,18 +12,17 @@ def home():
   if request.method == 'GET':
     return render_template("index.html")
   else:
-    print("CHECK")
     email = request.form['email']
     password = request.form['password']
     if(check.checkPassword(email, password)):
-      print(email, password)
-      return "Done"
+      eventsList = events.getEventsOfHead(email)
+      finalData = events.getDatabase(eventsList)
+      return render_template("table.html", events=eventsList, data=finalData)
     else:
       return Response('''
         <h1>Wrong Password, Try again!</h1>
         <button onclick="window.location = '/'">Home</button>
         ''')
-
 
 
 
