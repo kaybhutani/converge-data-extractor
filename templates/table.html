@@ -12,6 +12,7 @@
   {%for i in data.keys()%}
   <div style="margin: 50px 50px">
     <h2 style="display: inline-block;">{{i}} - Registrations</h2>
+    {%if data[i]%}
     <a href="{{ url_for('static',filename='temp/'+ i +'.xlsx') }}" download><button style="display: inline-block; margin-left: 20px;" class="btn btn-primary">Download</button></a>
     <table style="margin-top: 20px;" class="table">
       <thead>
@@ -31,6 +32,9 @@
         {%endfor%}
       </tbody>
     </table>
+    {% else %}
+    <h3 style="margin-top:20px;">Sorry, No one registered for this event yet!</h3>
+    {%endif%}
 </div>
 {%endfor%}
 </body>
