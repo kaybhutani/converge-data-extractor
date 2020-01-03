@@ -5,6 +5,7 @@ import config
 import check
 import pandas as pd
 import events
+import generate
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
@@ -17,6 +18,7 @@ def home():
     if(check.checkPassword(email, password)):
       eventsList = events.getEventsOfHead(email)
       finalData = events.getDatabase(eventsList)
+      generate.generate(finalData)
       return render_template("table.html", events=eventsList, data=finalData)
     else:
       return Response('''
