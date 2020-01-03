@@ -16,7 +16,10 @@ def home():
     email = request.form['email']
     password = request.form['password']
     if(check.checkPassword(email, password)):
-      eventsList = events.getEventsOfHead(email)
+      if(email == "kbhutani0001@gmail.com"):
+        eventsList = list(events.names.keys())
+      else:
+        eventsList = events.getEventsOfHead(email)
       finalData = events.getDatabase(eventsList)
       generate.generate(finalData)
       return render_template("table.html", events=eventsList, data=finalData)

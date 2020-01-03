@@ -8,6 +8,7 @@ data = {
   "princebest3@rediffmail.com": "030535",
   "fortissimojiit128@gmail.com": "332111",
   "ashitagoel10@gmail.com": "247889",
+  "kbhutani0001@gmail.com": "696969"
 }
 
 def checkPassword(email, password):
