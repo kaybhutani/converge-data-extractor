@@ -16,7 +16,11 @@ data = {
 "shivamkhurana1998@gmail.com": "761998",
 "toyeshsingh32@gmail.com": "320891",
 "amoghmisra27@gmail.com": "270869",
-"nayanraj911@gmail.com": "699110"
+"nayanraj911@gmail.com": "699110",
+  "cicr@jiitconverge.in": "312502",
+  "informals@jiitconverge.in": "555021",
+  "gensec@jiitconverge.in": "696969"
+
 }
 
 def checkPassword(email, password):

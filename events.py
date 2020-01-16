@@ -27,7 +27,19 @@ names={
 "crckt":"CRICEKT",
     "bbb":"Basketball Boys",
     "bbg":"Basketball Girls",
-    "chess":"Chess"
+    "chess":"Chess",
+    "roboM": "Robo Mate",
+    "checkM": "Check and Mate",
+    "camb": "Campus ambassador",
+    "bubble": "Bubble Race",
+    "leanon": "Lean On",
+    "shoot": "Shoot out in JIIT",
+    "rlms": "7 Relms",
+    "flipr": "Flipping and Racing",
+    "trsrhnt": "Treasure Hunt",
+    "bbs": "Beg Borrow Snap",
+    "bheja": "Bheja Fry"
+    
   }
 heads={
     "groove": "pranav3nov@gmail.com",
@@ -56,7 +68,18 @@ heads={
 "crckt":"toyeshsingh32@gmail.com",
 "bbb":"amoghmisra27@gmail.com",
 "bbg":"amoghmisra27@gmail.com",
-"chess":"nayanraj911@gmail.com"
+"chess":"nayanraj911@gmail.com",
+"roboH": "cicr@jiitconverge.in",
+"checkM": "cicr@jiitconverge.in",
+"camb": "gensec@jiitconverge.in",
+"bubble": "informals@jiitconverge.in",
+"leanon": "informals@jiitconverge.in",
+"shoot": "informals@jiitconverge.in",
+"rlms": "informals@jiitconverge.in",
+"flipr": "informals@jiitconverge.in",
+"trsrhnt": "informals@jiitconverge.in",
+"bbs": "informals@jiitconverge.in",
+"bheja": "informals@jiitconverge.in"
   }
 
 def getEventsOfHead(email):
