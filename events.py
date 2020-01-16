@@ -28,7 +28,7 @@ names={
     "bbb":"Basketball Boys",
     "bbg":"Basketball Girls",
     "chess":"Chess",
-    "roboM": "Robo Mate",
+    "roboH": "Robo Mate",
     "checkM": "Check and Mate",
     "camb": "Campus ambassador",
     "bubble": "Bubble Race",
