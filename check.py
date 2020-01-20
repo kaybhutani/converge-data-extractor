@@ -19,7 +19,8 @@ data = {
 "nayanraj911@gmail.com": "699110",
   "cicr@jiitconverge.in": "312502",
   "informals@jiitconverge.in": "555021",
-  "gensec@jiitconverge.in": "696969"
+  "gensec@jiitconverge.in": "696969",
+  "aakriti@jiitconverge.in": "iLoveArt"
 
 }
 

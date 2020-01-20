@@ -38,7 +38,9 @@ names={
     "flipr": "Flipping and Racing",
     "trsrhnt": "Treasure Hunt",
     "bbs": "Beg Borrow Snap",
-    "bheja": "Bheja Fry"
+    "bheja": "Bheja Fry",
+    "shd": "2 Shades",
+    "brshFF": "Brush Off"
     
   }
 heads={
@@ -79,7 +81,9 @@ heads={
 "flipr": "informals@jiitconverge.in",
 "trsrhnt": "informals@jiitconverge.in",
 "bbs": "informals@jiitconverge.in",
-"bheja": "informals@jiitconverge.in"
+"bheja": "informals@jiitconverge.in",
+"brshFF": "aakriti@jiitconverge.in",
+"shd":  "aakriti@jiitconverge.in"
   }
 
 def getEventsOfHead(email):
