@@ -40,12 +40,15 @@ names={
     "bbs": "Beg Borrow Snap",
     "bheja": "Bheja Fry",
     "shd": "2 Shades",
-    "brshFF": "Brush Off"
+    "brshFF": "Brush Off",
+    "ipl": "IPL",
+    "pubg": "PUBG",
+    "gym": "Gym Events"
     
   }
 heads={
     "groove": "pranav3nov@gmail.com",
-    "inquizzitive": "b.dubey1111@gmail.com",
+    "inquizzitive": "bhakt@jiitconverge.in",
     "rihaa": "abhivyakti128@gmail.com",
     "mehfil": "abhivyakti128@gmail.com",
     "advaya": "parthsethi1998@gmail.com",
@@ -83,7 +86,10 @@ heads={
 "bbs": "informals@jiitconverge.in",
 "bheja": "informals@jiitconverge.in",
 "brshFF": "aakriti@jiitconverge.in",
-"shd":  "aakriti@jiitconverge.in"
+"shd":  "aakriti@jiitconverge.in",
+"ipl": "informals@jiitconverge.in",
+"pubg": "informals@jiitconverge.in",
+"gym": "gym@jiitconverge.in"
   }
 
 def getEventsOfHead(email):
