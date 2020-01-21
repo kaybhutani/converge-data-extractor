@@ -48,7 +48,7 @@ names={
   }
 heads={
     "groove": "pranav3nov@gmail.com",
-    "inquizzitive": "bhakt@jiitconverge.in",
+    "inquizzitive": "bhartendu@jiitconverge.in",
     "rihaa": "abhivyakti128@gmail.com",
     "mehfil": "abhivyakti128@gmail.com",
     "advaya": "parthsethi1998@gmail.com",
