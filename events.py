@@ -1,6 +1,7 @@
 import pymongo
 import config
 names={
+    "fifa": "Fifa",
     "groove": "GROOVE",
     "inquizzitive": "INQUIZZITIVE",
     "rihaa": "RIHAA",
@@ -89,7 +90,8 @@ heads={
 "shd":  "aakriti@jiitconverge.in",
 "ipl": "informals@jiitconverge.in",
 "pubg": "informals@jiitconverge.in",
-"gym": "gym@jiitconverge.in"
+"gym": "gym@jiitconverge.in",
+"fifa": "kbhutani0001@gmail.com"
   }
 
 def getEventsOfHead(email):
