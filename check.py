@@ -21,7 +21,7 @@ data = {
   "informals@jiitconverge.in": "555021",
   "gensec@jiitconverge.in": "696969",
   "aakriti@jiitconverge.in": "iLoveArt",
-  "bhartendu@jiitconverge.in": "creepiestPersonAlive",
+  "bhartendu@jiitconverge.in": "Alive",
   "gym@jiitconverge.in" : "gymLove69"
 
 }
