@@ -44,8 +44,8 @@ names={
     "brshFF": "Brush Off",
     "ipl": "IPL",
     "pubg": "PUBG",
-    "gym": "Gym Events"
-    
+    "gym": "Gym Events",
+    "football1":"Football"
   }
 heads={
     "groove": "pranav3nov@gmail.com",
@@ -91,7 +91,8 @@ heads={
 "ipl": "informals@jiitconverge.in",
 "pubg": "informals@jiitconverge.in",
 "gym": "gym@jiitconverge.in",
-"fifa": "kbhutani0001@gmail.com"
+"fifa": "kbhutani0001@gmail.com",
+"football1":"utkarsh4419@yahoo.com"
   }
 
 def getEventsOfHead(email):
