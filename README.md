@@ -1,2 +1,3 @@
-# converge-data-extractor
-Registrations data extractor for Converge 2020
+# Converge Data extractor
+Web app for Society heads to check registrations for events at Converge 2020
+
